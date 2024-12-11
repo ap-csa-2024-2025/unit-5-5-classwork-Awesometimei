@@ -9,12 +9,16 @@ public class Main
     
     p1.setX(0);
     p1.setY(4);
-    p1.setX(3);
-    p1.setY(2);
+    p2.setX(3);
+    p2.setY(2);
+    System.out.println("Point 1: (" + p1.getX() + "," + p1.getY() + ")");
+    System.out.println("Point 2: (" + p2.getX() + "," + p2.getY() + ")");
 
     Dog dog1 = new Dog();
+    dog1.bark();
 
-    Person justin = new Person("Justin", "Vu", 16, 121232);
-    justin.toString();
+    Person justin = new Person();
+    justin.setInfo("Justin", "Vu", 16, 121232);
+    justin.printInfo();
   }
 }

@@ -4,6 +4,7 @@ public class Point2D
     private int x;
     private int y;
 
+    //Mutator methods (setters)
     public void setX(int inputX)
     {
         x = inputX;
@@ -12,5 +13,16 @@ public class Point2D
      public void setY(int inputY)
     {
         y = inputY;
+    }
+
+    //Accessors (getters)
+    public int getX()
+    {
+        return x;
+    }
+
+     public int getY()
+    {
+        return y;
     }
 }
