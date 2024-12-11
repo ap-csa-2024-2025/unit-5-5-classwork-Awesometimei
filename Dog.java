@@ -1,8 +1,8 @@
 public class Dog
 {
-    private final String breed;
+    private String breed;
     private double size;
-    private final String furColor;
+    private String furColor;
 
     public void bark()
     {
