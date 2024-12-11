@@ -16,6 +16,7 @@ public class Main
 
     Dog dog1 = new Dog();
     dog1.bark();
+    dog1.dogInfo();
 
     Person justin = new Person();
     justin.setInfo("Justin", "Vu", 16, 121232);
