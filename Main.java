@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Main
 {
+  public static Scanner sc = new Scanner(System.in);
+
   public static void main(String[] args)
   {
     Point2D p1 = new Point2D();
@@ -19,7 +21,6 @@ public class Main
     dog1.dogInfo();
 
     Person justin = new Person();
-    justin.setInfo("Justin", "Vu", 16, 121232);
-    justin.printInfo();
+    justin.setInfo();
   }
 }

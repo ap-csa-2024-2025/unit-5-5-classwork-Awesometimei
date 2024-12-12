@@ -5,19 +5,36 @@ public class Person
     private int age;
     private int socialSecurityNumber;
 
-    public void setInfo(String nameFirst, String nameLast, int lifetime, int SSN)
+    public void setInfo()
     {
-        firstName = nameFirst;
-        lastName = nameLast;
-        age = lifetime;
-        socialSecurityNumber = SSN;
+        System.out.println("Last Name: ");
+        firstName = Main.sc.nextLine();
+        System.out.println("First Name: ");
+        lastName = Main.sc.nextLine();
+        System.out.println("Age Name: ");
+        age = Main.sc.nextInt();
+        System.out.println("Social Security #: ");
+        SSN = Main.sc.nextInt();
     }   
 
-    public void printInfo()
+    public String getFirstName()
     {
-        System.out.println("SSN: " + socialSecurityNumber);
-        System.out.println("Name: " + firstName + " " + lastName);
-        System.out.println("Age: " + age);
+        return firstName;
+    }
+
+     public String getlastName()
+    {
+        return lastName;
+    }
+
+     public int getAge()
+    {
+        return age;
+    }
+
+     public int getSSN()
+    {
+        return socialSecurityNumber;
     }
 }
 
